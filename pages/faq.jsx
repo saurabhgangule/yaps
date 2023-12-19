@@ -2,27 +2,27 @@ import React, { useState } from 'react'
 import Head from 'next/head'
 const faqData = [
   {
-    question: 'What is YAPS?',
+    question: 'What is FMF?',
     answer:
-      'YAPS (Yet Another Piracy Site) is a torrent site that allows users to download and share copyrighted content such as movies, music, software, and more.',
+      'FMF (FreeMoviesFull) is a torrent site that allows users to download and share copyrighted content such as movies, music, software, and more.',
   },
   {
-    question: 'How does YAPS work?',
+    question: 'How does FMF work?',
     answer:
-      'Users can search for their desired content on YAPS and download it using a BitTorrent client. YAPS operates on a peer-to-peer network, meaning that users download files from other users who have already downloaded them.',
+      'Users can search for their desired content on FMF and download it using a BitTorrent client. FMF operates on a peer-to-peer network, meaning that users download files from other users who have already downloaded them.',
   },
   {
-    question: 'How can I protect my privacy while using YAPS?',
+    question: 'How can I protect my privacy while using FMF?',
     answer:
-      'To protect your privacy while using YAPS, consider using a VPN (Virtual Private Network) to hide your IP address and encrypt your internet connection. This will help prevent your online activities from being tracked.',
+      'To protect your privacy while using FMF, consider using a VPN (Virtual Private Network) to hide your IP address and encrypt your internet connection. This will help prevent your online activities from being tracked.',
   },
   {
-    question: "What if I can't find the content I'm looking for on YAPS?",
+    question: "What if I can't find the content I'm looking for on FMF?",
     answer:
-      "YAPS is a user-driven platform, and the availability of content depends on what other users have uploaded. If you can't find what you're looking for, it may not be available on YAPS.",
+      "FMF is a user-driven platform, and the availability of content depends on what other users have uploaded. If you can't find what you're looking for, it may not be available on FMF.",
   },
   {
-    question: 'Is it safe to download from YAPS?',
+    question: 'Is it safe to download from FMF?',
     answer:
       "We allow only verified torrents to be uploaded on our site. However, there are no absolutes when it comes to protection. Users should always scan/test whatever they download and don't take anything for granted. Mistakes often happen as the uploaders are also humans, or someone could just simply want to trick us. From our side, as a site, we try our best to keep you protected but that does NOT mean you should let your guards down.",
   },
@@ -62,7 +62,7 @@ const FAQ = () => {
   return (
     <div className='max-lg:ml-[10%]  min-[1700px]:ml-[-9%] min-[1900px]:ml-[-15%] min-[2000px]:ml-[-20%] min-[2300px]:ml-[-27%]'>
       <Head>
-        <title>Faq | Yaps</title>
+        <title>Faq | FMF</title>
       </Head>
       <h1 className='mb-10 text-center text-2xl font-bold text-app-dark-blue dark:text-white '>
         HELP CENTER
