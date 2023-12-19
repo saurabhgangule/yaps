@@ -4,7 +4,6 @@ import Collection from '../components/Collection'
 import SearchBar from '../components/SearchBar'
 import {pathToSearchAll} from '../utils'
 import CollectionContinueWatching from "../components/CollectionContinueWatching";
-import GoogleTagManagerScript from '../components/GoogleTagManager';
 import {ThemeToggler} from "../components/ThemeToggler";
 import {useTheme} from "next-themes";
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
         <>
             <Head>
                 <title>Home | FMF</title>
-                <GoogleTagManagerScript/>
             </Head>
             <SearchBar searchPath={pathToSearchAll}/>
             {/*Continue watching*/}

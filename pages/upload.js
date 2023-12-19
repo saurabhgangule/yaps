@@ -298,7 +298,7 @@ const Upload = () => {
   return (
     <div>
        <Head>
-        <title>Upload | Yaps</title>
+        <title>Upload | FMF</title>
       </Head>
       {loader ? <Loader /> : null}
       <div className='w-[50%] pb-5 m-auto'>
