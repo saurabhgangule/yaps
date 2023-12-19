@@ -225,7 +225,7 @@ const Tv = () => {
   return (
     <>
       <Head>
-        <title>Play Tv | Yaps</title>
+        <title>Play Tv | FMF</title>
       </Head>
       <div
         className={`left-0  top-0 z-[997] w-full bg-black transition duration-300 ease-in-out ${

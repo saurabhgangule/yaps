@@ -79,7 +79,7 @@ const Movies = () => {
   return (
     <>
       <Head>
-        <title>Play Movies | Yaps</title>
+        <title>Play Movies | FMF</title>
       </Head>
       <div
         className={` left-0 top-0 z-[997] bg-black  transition duration-300 ease-in-out ${

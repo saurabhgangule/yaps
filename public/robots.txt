@@ -5,4 +5,4 @@ Allow: /
 
  
 
-sitemap: https://yaps.cc/sitemap.xml
+sitemap: https://freemoviesfull.xyz/sitemap.xml
