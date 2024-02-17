@@ -8,7 +8,7 @@ import {ToastContainer} from 'react-toastify';
 import {ThemeProvider} from "next-themes";
 import ReactGA from "react-ga4";
 
-const GA_MEASUREMENT_ID = 'G-JY62XD8WSB';
+const GA_MEASUREMENT_ID = 'G-TERF0M78WH';
 NProgress.configure({showSpinner: false})
 Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())
