@@ -47,7 +47,9 @@ const handleClose =()=>{
     <>
    
       <Head>
-        <title>{movie?.detail?.title} | YAPS</title>
+        <title>{movie?.detail?.title} | Freemoviesfull.xyz</title>
+        <meta name='title' content={movie?.detail?.title} />
+        <meta name='description' content={`${data?.detail?.overview.slice(0, 160)}...`} />
       </Head>
       <SearchBar
         placeholder='Search for movies'

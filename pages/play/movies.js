@@ -79,7 +79,9 @@ const Movies = () => {
   return (
     <>
       <Head>
-        <title>Play Movies | FMF</title>
+        <title>Playing {data?.imdb?.imdb?.name} on Freemoviesfull.xyz</title>
+        <meta name='title' content={`Playing ${data?.imdb?.imdb?.name} on Freemoviesfull.xyz`} />
+        <meta name="description" content={`${data?.detail?.overview.slice(0, 160)}...`} />
       </Head>
       <div
         className={` left-0 top-0 z-[997] bg-black  transition duration-300 ease-in-out ${
@@ -87,7 +89,7 @@ const Movies = () => {
             ? 'opacity-0.5 fixed h-screen w-full '
             : 'h-0 w-0 opacity-0'
         }`}></div>
-      <div className={'text-4xl'}>{data ? data.imdb.imdb.name : ''}</div>
+      <div className={'text-4xl'}>{data ? data?.imdb?.imdb?.name : ''}</div>
       <div className={`w-full  ${lightStatus ? '' : 'h-full'} z-[999] `}>
         <div className={` flex  h-full w-full  flex-col`}>
           <iframe
@@ -126,7 +128,7 @@ const Movies = () => {
                 } flex h-full  w-1/3 flex-col items-center justify-center p-2 text-center`}>
                 {`You are watching `}
                 <div className={' font-bold'}>
-                  {data ? data.imdb.imdb.name : ''}
+                  {data ? data?.imdb?.imdb?.name : ''}
                 </div>
                 <div>
                   {' '}

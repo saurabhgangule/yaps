@@ -19,7 +19,9 @@ export default function PopularMovies() {
   return (
     <div>
       <Head>
-        <title>Popular Movies | FMF</title>
+        <title>Watch Popular Movies on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Popular Movies on Freemoviesfull.xyz' />
+        <meta name='description' content='Enjoy popular movies on Freemoviesfull.xyz. Stream now for captivating entertainment!' />
       </Head>
       <SearchBar
         placeholder='Search for movies'

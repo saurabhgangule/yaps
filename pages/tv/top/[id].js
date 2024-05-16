@@ -19,7 +19,9 @@ export default function TopRatedTVSeries() {
   return (
     <div>
       <Head>
-        <title>Top Rated TV Series | FMF</title>
+        <title>Watch Top Rated TV Shows on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Top Rated TV Shows on Freemoviesfull.xyz' />
+        <meta name='description' content='Discover top-rated TV shows on Freemoviesfull.xyz. Stream now for captivating entertainment!' />
       </Head>
       <SearchBar
         placeholder='Search for TV Series'

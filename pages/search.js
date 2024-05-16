@@ -72,7 +72,9 @@ const Home = () => {
   return (
     <div className='font-montserrat  container mx-auto min-h-screen justify-center bg-transparent  py-3 text-center font-light'>
       <Head>
-        <title>Search | FMF</title>
+        <title>Search free movies and TV shows on Freemoviesfull.xyz</title>
+        <meta name='title' content={`Search free movies and TV shows on Freemoviesfull.xyz`} />
+        <meta name='description' content={"Find free movies and TV shows on Freemoviesfull.xyz. Enjoy endless entertainment"} />
       </Head>
       {loader ? <Loader /> : null}
       <div>

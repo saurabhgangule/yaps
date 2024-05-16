@@ -19,7 +19,9 @@ export default function TrendingTVSeries() {
   return (
     <div>
       <Head>
-        <title>Trending TV Series | FMF</title>
+        <title>Watch Trending TV Shows on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Trending TV Shows on Freemoviesfull.xyz' />
+        <meta name='description' content='Discover trending TV shows on Freemoviesfull.xyz. Stream now for captivating entertainment' />
       </Head>
       <SearchBar
         placeholder='Search for TV Series'

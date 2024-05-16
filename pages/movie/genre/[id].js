@@ -15,7 +15,7 @@ export default function GenreMovie({ data, id, name, page }) {
   return (
     <div>
       <Head>
-        <title>{name} - Movies | FMF</title>
+        <title>{name} - Movies | Freemoviesfull.xyz</title>
       </Head>
       <SearchBar
         placeholder='Search for movies'

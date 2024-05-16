@@ -19,7 +19,9 @@ export default function TVSeriesOnTheAir() {
   return (
     <div>
       <Head>
-        <title>TV Series On The Air | FMF</title>
+        <title>TV Series On The Air | Freemoviesfull.xyz</title>
+        <meta name='title' content='TV Series On The Air | Freemoviesfull.xyz' />
+        <meta name='description' content="Stay tuned with TV series on the air! Explore captivating episodes on Freemoviesfull.xyz. Watch now!" />
       </Head>
       <SearchBar
         placeholder='Search for TV Series'

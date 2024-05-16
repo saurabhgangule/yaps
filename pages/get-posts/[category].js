@@ -164,7 +164,9 @@ const Latest = () => {
     return (
         <div className='font-montserrat text-center'>
             <Head>
-                <title>Browse | FMF</title>
+                <title>Browse all Movies, TV Shows free on Freemoviesfull.xyz</title>
+                <meta name='title' content='Browse all Movies, TV Shows free on Freemoviesfull.xyz' />
+                <meta name='description' content='Browse all movies and TV shows free on Freemoviesfull.xyz. Enjoy endless entertainment now!' />
             </Head>
             {!movieList.length > 0 ? <Loader/> : null}
             <div className='w-full justify-end'>

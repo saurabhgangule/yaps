@@ -19,7 +19,9 @@ export default function PopularTVSeries() {
   return (
     <div>
       <Head>
-        <title>Popular TV Series | FMF</title>
+        <title>Watch Popular TV Shows on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Popular TV Shows on Freemoviesfull.xyz' />
+        <meta name='description' content='Enjoy popular TV shows on Freemoviesfull.xyz. Stream now for free!' />
       </Head>
       <SearchBar
         placeholder='Search for TV Series'

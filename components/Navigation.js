@@ -9,7 +9,7 @@ import NavigationIcon from './NavigationIcon'
 import 'react-tooltip/dist/react-tooltip.css'
 import { Tooltip } from 'react-tooltip'
 import { MdOutlineArrowBackIos } from 'react-icons/md'
-import {ThemeToggler} from "./ThemeToggler";
+import { ThemeToggler } from './ThemeToggler'
 
 export default function Navigation() {
   const router = useRouter()
@@ -26,7 +26,7 @@ export default function Navigation() {
   }
 
   return (
-    <nav className='bg-app-shady-white sticky top-0 z-50 flex items-center  justify-between p-5 shadow-md shadow-black dark:bg-app-semi-dark-blue md:mx-6 md:mb-[33px] md:mt-6 md:rounded-[10px] lg:fixed lg:left-0 lg:my-12 lg:mr-0 lg:h-5/6 lg:flex-col lg:py-9'>
+    <nav className='sticky top-0 z-50 flex items-center justify-between  bg-app-shady-white p-5 shadow-md shadow-black dark:bg-app-semi-dark-blue md:mx-6 md:mb-[33px] md:mt-6 md:rounded-[10px] lg:fixed lg:left-0 lg:my-12 lg:mr-0 lg:h-5/6 lg:flex-col lg:py-9'>
       <div
         onClick={() => setIsOpen(false)}
         className={`  overlay backdrop ${isOpen ? 'active' : ''}`}></div>
@@ -132,7 +132,7 @@ export default function Navigation() {
             </li>
             <li
               onClick={() => setIsOpen(false)}
-              className='m-2 cursor-pointer rounded-xl border-2 border-gray-400 p-4 dark:border-gray-900'>
+              className='m-2 hidden cursor-pointer rounded-xl border-2 border-gray-400 p-4 dark:border-gray-900'>
               <NavigationIcon href={token ? '/upload' : '/login?page=upload'}>
                 <svg
                   data-tooltip-id='my-tooltip'
@@ -170,7 +170,7 @@ export default function Navigation() {
               </NavigationIcon>
             </li>
             <li>
-              <ThemeToggler parentComponent={"sidebar"}/>
+              <ThemeToggler parentComponent={'sidebar'} />
             </li>
           </ul>
         </nav>
@@ -268,7 +268,7 @@ export default function Navigation() {
           data-tooltip-content='TV'>
           <IconNavTv />
         </NavigationIcon>
-        <NavigationIcon href={token ? '/upload' : '/login?page=upload'}>
+        {/* <NavigationIcon href={token ? '/upload' : '/login?page=upload'}>
           <svg
             data-tooltip-id='my-tooltip'
             data-tooltip-content='Upload'
@@ -281,7 +281,7 @@ export default function Navigation() {
             viewBox='0 0 16 16'>
             <path d='M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2z' />
           </svg>
-        </NavigationIcon>
+        </NavigationIcon> */}
         {/* faq */}
         <NavigationIcon href='/faq'>
           <svg
@@ -302,7 +302,28 @@ export default function Navigation() {
           </NavigationIcon>
         ) : null}
       </div>
-      <div style={{ cursor: 'pointer' }}>
+      <div className='relative' style={{ cursor: 'pointer' }}>
+        <span className='absolute rounded-md bg-blue-100 px-2.5 py-0.5 text-xs text-blue-800 border-gray-400 p-4  dark:border-gray-900 top-[-16px]'>
+          New
+        </span>
+        <NavigationIcon href='https://freeanimesfull.xyz'>
+          <svg
+            fill='currentColor'
+            className='icon-nav'
+            width='24'
+            height='24'
+            viewBox='0 0 96 96'
+            data-tooltip-id='my-tooltip'
+            data-tooltip-content='Watch Anime Free'
+            xmlns='http://www.w3.org/2000/svg'>
+            <path
+              d='M38.892 14.296C26.973 19.323 15.061 32.693 15.01 41.102c-.009 1.359-2.437 8.367-13.59 39.218L.039 84.141l27.731-.321c31.091-.359 32.628-.667 41.006-8.237 18.829-17.01 3.415-50.678-20.822-45.48-20.01 4.292-21.144 34.431-1.379 36.658 12.603 1.421 18.192-11.422 8.707-20.006-1.841-1.666-2.037-1.62-4.623 1.079-2.699 2.817-2.699 2.82-.68 4.647 4.522 4.092 1.159 8.906-4.439 6.355-6.306-2.873-7.474-12.102-2.199-17.377 13.386-13.386 34.151 8.644 23.31 24.731-16.699 24.779-55.114-1.28-42.293-28.69 8.743-18.692 31.564-23.429 50.15-10.41l5.702 3.995 7.395-5.566c8.152-6.136 8.232-6.278 5.458-9.658-2.098-2.557-1.74-2.656-8.938 2.474l-3.978 2.835-8.663-4.293c-11.285-5.592-23.213-6.537-32.592-2.581M16 62.281c0 .371-1.105 3.609-2.455 7.196L11.09 76h15.259l-2.071-2.25c-1.138-1.237-3.467-4.476-5.174-7.196C17.397 63.834 16 61.911 16 62.281'
+              fillRule='evenodd'
+            />
+          </svg>
+        </NavigationIcon>
+      </div>
+      <div className='hidden' style={{ cursor: 'pointer' }}>
         {token ? (
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -336,7 +357,9 @@ export default function Navigation() {
             width='24'
             height='24'
             fill='currentColor'
-            className={router.pathname === '/login' ? 'active-link' : 'icon-nav'}
+            className={
+              router.pathname === '/login' ? 'active-link' : 'icon-nav'
+            }
             viewBox='0 0 16 16'>
             <path
               fillRule='evenodd'

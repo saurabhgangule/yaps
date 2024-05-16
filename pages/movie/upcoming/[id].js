@@ -19,7 +19,9 @@ export default function UpcomingMovies() {
   return (
     <div>
       <Head>
-        <title>Upcoming Movies | FMF</title>
+        <title>Checkout Upcoming Movies on Freemoviesfull.xyz</title>
+        <meta name='title' content='Checkout Upcoming Movies on Freemoviesfull.xyz' />
+        <meta name='description' content='Explore upcoming movies on Freemoviesfull.xyz. Stream now for captivating entertainment!' />
       </Head>
       <SearchBar
         placeholder='Search for movies'
