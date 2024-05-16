@@ -19,7 +19,9 @@ export default function TopRatedMovies() {
   return (
     <div>
       <Head>
-        <title>Top Rated Movies | FMF</title>
+        <title>Watch Top Rated Movies on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Top Rated Movies on Freemoviesfull.xyz' />
+        <meta name='description' content='Discover top-rated movies on Freemoviesfull.xyz. Stream now for captivating entertainment!' />
       </Head>
       <SearchBar
         placeholder='Search for movies'

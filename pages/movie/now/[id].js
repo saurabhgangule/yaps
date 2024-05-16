@@ -19,7 +19,9 @@ export default function NowPlayingMovies() {
   return (
     <div>
       <Head>
-        <title>Now Playing Movies | FMF</title>
+        <title>Watch Currently Playing Movies on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Currently Playing Movies on Freemoviesfull.xyz' />
+        <meta name='description' content='Stream currently playing movies on Freemoviesfull.xyz. Watch now for captivating entertainment!' />
       </Head>
       <SearchBar
         placeholder='Search for movies'

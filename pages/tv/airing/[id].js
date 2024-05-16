@@ -19,7 +19,9 @@ export default function AiringTVSeries() {
   return (
     <div>
       <Head>
-        <title>TV Series Airing Today | FMF</title>
+        <title>Watch TV Series Airing Today on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch TV Series Airing Today on Freemoviesfull.xyz' />
+        <meta name='description' content="Stay updated with today's TV series! Catch the latest episodes airing now on Freemoviesfull.xyz. Watch TV Series Airing Today!" />
       </Head>
       <SearchBar
         placeholder='Search for TV Series'

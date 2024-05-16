@@ -22,7 +22,12 @@ export default function OnAirTV() {
   return (
     <div>
       <Head>
-        <title>TV On Air</title>
+        <title>Watch currently Airing TV shows on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch TV On Air on Freemoviesfull.xyz' />
+        <meta
+          name='description'
+          content='Stream your favorite TV shows online for free! Explore a vast selection of episodes and series on Freemoviesfull.xyz. Watch TV On Air now!'
+        />
       </Head>
       <SearchBar
         placeholder='Search for TV series'

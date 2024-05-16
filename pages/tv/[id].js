@@ -25,7 +25,9 @@ export default function TV() {
   return (
     <>
       <Head>
-        <title>{tv.detail.name} | FMF</title>
+        <title>{tv.detail.name} | Freemoviesfull.xyz</title>
+        <meta name='title' content={tv?.detail?.name} />
+        <meta name='description' content={`${tv?.detail?.overview.slice(0, 160)}...`} />
       </Head>
       <SearchBar
         placeholder='Search for TV series'

@@ -19,7 +19,9 @@ export default function TrendingMovies() {
   return (
     <div>
       <Head>
-        <title>Trending Movies | FMF</title>
+        <title>Watch Trending Movies on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Trending Movies on Freemoviesfull.xyz' />
+        <meta name='description' content='Discover trending movies on Freemoviesfull.xyz. Stream now for captivating entertainment!' />
       </Head>
       <SearchBar
         placeholder='Search for movies'

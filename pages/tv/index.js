@@ -8,7 +8,7 @@ export default function TV({ data }) {
   return (
     <>
       <Head>
-        <title>TV Series | FMF</title>
+        <title>Watch Latest TV Shows on Freemoviesfull.xyz</title>
       </Head>
       <SearchBar
         placeholder='Search for TV series'

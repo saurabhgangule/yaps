@@ -14,7 +14,9 @@ export default function SearchMovie({ data, id, page }) {
   return (
     <>
       <Head>
-        <title>{id} - Search Results | FMF</title>
+        <title>Watch {id} free on Freemoviesfull.xyz</title>
+        <meta name='title' content={`Watch ${id} free on Freemoviesfull.xyz`} />
+        <meta name='description' content={`Watch ${id} free on Freemoviesfull.xyz. Enjoy endless entertainment now!`} />
       </Head>
       <SearchBar
         placeholder='Search for movies'

@@ -8,7 +8,7 @@ export default function Movie({ data }) {
   return (
     <>
       <Head>
-        <title>Movies | FMF</title>
+        <title>Watch Latest Movies on Freemoviesfull.xyz</title>
       </Head>
       <SearchBar
         placeholder='Search for movies'

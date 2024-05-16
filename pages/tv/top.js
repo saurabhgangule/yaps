@@ -22,7 +22,12 @@ export default function TopRatedTV() {
   return (
     <div>
       <Head>
-        <title>Top Rated TV Series</title>
+        <title>Watch Top Rated TV Shows on Freemoviesfull.xyz</title>
+        <meta name='title' content='Watch Top Rated TV Shows on Freemoviesfull.xyz' />
+        <meta
+          name='description'
+          content='Discover the best-rated TV shows online! Enjoy top-quality entertainment on Freemoviesfull.xyz. Watch Top Rated TV Shows now!'
+        />
       </Head>
       <SearchBar
         placeholder='Search for TV series'

@@ -225,7 +225,9 @@ const Tv = () => {
   return (
     <>
       <Head>
-        <title>Play Tv | FMF</title>
+        <title>Playing {data?.detail?.name} on Freemoviesfull.xyz</title>
+        <meta name='title' content={`Playing ${data?.detail?.name} on Freemoviesfull.xyz`} />
+        <meta name="description" content={`${data?.detail?.overview.slice(0, 160)}...`} />
       </Head>
       <div
         className={`left-0  top-0 z-[997] w-full bg-black transition duration-300 ease-in-out ${

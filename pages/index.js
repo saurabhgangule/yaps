@@ -12,7 +12,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Home | FMF</title>
+                <title>Watch latest movies and TV Shows free on Freemoviesfull.xyz</title>
+                <meta name='title' content={`Watch latest movies and TV Shows free on Freemoviesfull.xyz`} />
+                <meta name='description' content={"Watch latest movies and TV Shows free on Freemoviesfull.xyz. Enjoy endless entertainment!"} />
             </Head>
             <SearchBar searchPath={pathToSearchAll}/>
             {/*Continue watching*/}

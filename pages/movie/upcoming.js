@@ -22,7 +22,7 @@ export default function UpcomingMovies() {
   return (
     <div>
       <Head>
-        <title>Upcoming Movies | FMF</title>
+        <title>Watch Upcoming Movies on Freemoviesfull.xyz</title>
       </Head>
       <SearchBar
         placeholder='Search for movies'
