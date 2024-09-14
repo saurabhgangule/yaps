@@ -101,6 +101,7 @@ const Movies = () => {
                 ? 'absolute left-0 h-[80vh] w-full lg:left-[20%] lg:w-2/3 '
                 : 'h-[95vh] w-full'
             }`}
+            id='iframeContainer'
             allowFullScreen='allowfullscreen'></iframe>
           <div
             className={`${
